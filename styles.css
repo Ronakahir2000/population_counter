@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#dashboard {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-section button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#loading {
+    text-align: center;
+    display: none;
+    font-size: 18px;
+    color: #007bff;
+}
+
+#populationTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

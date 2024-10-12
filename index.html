@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Population Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="dashboard">
+        <h1>State Population Dashboard</h1>
+        <div class="input-section">
+            <input type="text" id="stateInput" placeholder="Enter State Name">
+            <button onclick="fetchPopulation()">Search</button>
+        </div>
+        <div id="error"></div>
+        <div id="loading">Loading data, please wait...</div>
+        <table id="populationTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>Year</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
